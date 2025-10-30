@@ -11,18 +11,11 @@ This eliminates the need for manual email tools and enables **scalable**, **cost
 
 ### 🧩 Architecture Diagram
 
-```
-Contacts (contacts.csv)
-        ↓
-AWS Lambda (Email Sender)
-        ↓
-Amazon SES (Email Service)
-        ↑
-Amazon EventBridge (Scheduled Trigger)
-        ↑
-IAM Roles (Permission Management)
-```
 
+
+<p align="center">
+  <img src="./ServerLess CRUD App.drawio.png" width="600" alt="Architecture"/>
+</p>
 ---
 
 ### ⚙️ AWS Services Used
